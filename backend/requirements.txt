@@ -1,13 +1,6 @@
-# MediScan backend — Apple Silicon Mac (M1/M2/M3). Use: bash run.sh
-#
-# Keras 3 loads your HF .keras files; tensorflow.keras in TF 2.15 cannot.
-# Pip may warn that tensorflow-macos wants keras 2.x — ignore it; Keras 3 is required.
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
 tensorflow==2.15.0
-tensorflow-macos==2.15.0
-keras==3.10.0
-numpy>=1.23.5,<2.0.0
-fastapi>=0.109.0
-uvicorn>=0.27.0
-python-multipart>=0.0.9
-pillow>=10.2.0
-huggingface_hub>=0.23.0,<1.0.0
+pillow==10.3.0
+numpy==1.26.4
